@@ -1,0 +1,6 @@
+# VillagerShop trade list.
+# This file is managed automatically by /vs admin and /vs admindelete — do not edit while the server is running.
+# Each entry has "input" and "output" as serialized ItemStacks.
+# Use ItemStack.serialize() format (confirmed: Paper 1.21.11 uses schema_version-based format).
+
+trades: []

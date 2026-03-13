@@ -1,0 +1,10 @@
+# VillagerShop configuration
+
+# Title displayed on the merchant GUI.
+# Supports MiniMessage format (e.g. "<gold>Shop</gold>").
+# Default: "Shop"
+shop-title: "Shop"
+
+# Permission node required to use /vs admin and /vs admindelete.
+# Default: "villagershop.admin" (granted to ops by default via plugin.yml)
+admin-permission: "villagershop.admin"

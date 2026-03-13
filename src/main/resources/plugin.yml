@@ -1,0 +1,27 @@
+name: VillagerShop
+version: '${project.version}'
+main: com.example.villagershop.VillagerShop
+# api-version "1.21" confirmed correct for Paper 1.21.11.
+# Using the major.minor format as documented in PluginDescriptionFile.java
+# (example: "api-version: 1.13"). This tells Paper we are using the modern
+# (non-legacy) component API and prevents legacy-mode item meta serialization.
+api-version: '1.21'
+description: Vanilla merchant GUI shop. Physical items only, no economy plugin.
+authors:
+  - Meatylumberjack
+
+commands:
+  shop:
+    description: Opens the shop GUI.
+    usage: /<command>
+    permission: ''
+  vs:
+    description: VillagerShop commands.
+    usage: /<command> [create|delete|info]
+    permission: ''
+    aliases: [villagershop]
+
+permissions:
+  villagershop.admin:
+    description: Allows managing shop trades via /vs (or /villagershop) create, delete, and info.
+    default: op

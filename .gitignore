@@ -1,0 +1,12 @@
+# Maven build output (contains large compiled jars)
+target/
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+*.class
+
+# OS files
+Thumbs.db
+.DS_Store
